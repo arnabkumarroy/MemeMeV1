@@ -159,6 +159,7 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
         return memedImage
     }
     
+    //This method is called to set everything at initial stage
     func  reset() {
         let memeTextAttributes:[String: Any] = [
             NSAttributedStringKey.strokeColor.rawValue: UIColor.black,
